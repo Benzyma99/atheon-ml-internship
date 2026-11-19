@@ -130,3 +130,57 @@ datheon-ml-internship/
 Datheon Machine Learning & Data Science Internship
 
 Project: Task 1 - Iris Classification
+
+## Task 2: California Housing Price Prediction
+
+### Project Overview
+This project develops and evaluates machine learning regression models to predict median house values using the California Housing dataset.
+
+The project explores housing characteristics, geographic information, and ocean proximity to understand their relationship with median house values.
+
+### Dataset
+- **Records:** 20,640
+- **Features:** 9 input features
+- **Target variable:** `median_house_value`
+- **Dataset type:** Structured tabular data
+- **Categorical feature:** `ocean_proximity`
+
+### Data Preprocessing
+The following preprocessing steps were implemented:
+- Handled missing values using median imputation for numerical data.
+- Removed duplicate records.
+- Separated input features from the target variable.
+- Applied StandardScaler to numerical features.
+- Applied One-Hot Encoding to categorical features.
+- Split the dataset into 80% training data and 20% testing data.
+
+### Models Evaluated
+Three regression algorithms were trained and compared:
+1. Linear Regression
+2. Decision Tree Regressor
+3. Random Forest Regressor
+
+### Model Evaluation Results
+
+| Model | MAE | RMSE | R² |
+|---|---:|---:|---:|
+| Random Forest | 32,187.43 | 49,379.72 | 0.8139 |
+| Decision Tree | 40,635.72 | 63,818.84 | 0.6892 |
+| Linear Regression | 50,670.74 | 70,006.52 | 0.6254 |
+
+### Best-Performing Model
+Random Forest achieved the strongest performance among the three evaluated models, recording the lowest MAE and RMSE and the highest R² score.
+
+Its R² score of 0.8139 indicates that it explains approximately 81.39% of the variation in the test-set housing values.
+
+### Project Outputs
+- Trained Random Forest regression pipeline.
+- Model evaluation results.
+- Feature importance analysis.
+- Actual versus predicted price visualisation.
+
+### Tools and Technologies
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook and Joblib.
+
+### Notebook
+`notebooks/task_02_housing_price_prediction.ipynb`

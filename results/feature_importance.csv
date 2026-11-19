@@ -1,0 +1,14 @@
+Feature,Importance
+num__median_income,0.5033041382849258
+cat__ocean_proximity_INLAND,0.14607537194042244
+num__longitude,0.10462066037559649
+num__latitude,0.09998668042589462
+num__housing_median_age,0.04927408908605385
+num__population,0.02864706453506937
+num__total_bedrooms,0.021479847942687685
+num__total_rooms,0.020033347559277145
+num__households,0.0157451023467756
+cat__ocean_proximity_NEAR OCEAN,0.006595719748778054
+cat__ocean_proximity_<1H OCEAN,0.003205613435277839
+cat__ocean_proximity_NEAR BAY,0.0006093695686109564
+cat__ocean_proximity_ISLAND,0.00042299475063012815
