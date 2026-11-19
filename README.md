@@ -51,6 +51,32 @@ Logistic Regression achieved a higher macro ROC-AUC of 0.9967 compared with 0.97
 
 Based on these results, Logistic Regression demonstrated stronger overall class discrimination on this experimental test split.
 
+## Visual Results
+
+### 1. Confusion Matrices
+
+These matrices compare the actual and predicted Iris flower classifications for both models.
+
+![Confusion Matrices](images/confusion_matrices.png)
+
+### 2. ROC Curves
+
+The ROC curves show how well each model distinguishes between the three Iris species.
+
+![ROC Curves](images/roc_curves.png)
+
+### 3. Logistic Regression Decision Boundary
+
+This plot shows how Logistic Regression separates the Iris species using petal length and petal width.
+
+![Logistic Regression Decision Boundary](images/logistic_regression_decision_boundary.png)
+
+### 4. Decision Tree Decision Boundary
+
+This plot shows how the Decision Tree model separates the Iris species using the same two features.
+
+![Decision Tree Decision Boundary](images/decision_tree_decision_boundary.png)
+
 ## Installation
 
 Clone this repository:
